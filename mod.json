@@ -1,0 +1,13 @@
+{
+  "RULE_VERSION":"20180724",
+  "name": "user-address-edit",
+  "apiDependencies": [
+  {
+    "name": "user-address"
+  },
+  {
+    "name": "user-select"
+  }
+]
+}
+
