@@ -24,7 +24,7 @@ define(['oxjs','./distpicker'],function(OXJS,DistPicker){
     				var new_id=json._id || r && r[0] && r[0].data  && r[0].data._id;
     				if(selected_id){
 		    			$mod.OXPut({
-		    				'user-address':{
+		    				'user-select':{
 		    					type:'user-address',
 		    					selected:new_id,
 		    					$updater:'default'
