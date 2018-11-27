@@ -21,7 +21,7 @@ define(['oxjs','./distpicker'],function(OXJS,DistPicker){
 
     		var callback=function(r){
     			if(is_default){
-    				var new_id=json._id || r && r[0] && r[0].data  && r[0].data._id;
+    				var new_id=json._id || r && r[0] && r[0].body  && r[0].body._id;
     				if(selected_id){
 		    			$mod.OXPut({
 		    				'user-select':{
