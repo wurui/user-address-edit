@@ -15,5 +15,49 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
+   
+        <user-address>
+            <i>
+                <_id>58d3782fc54d47560af2cd7a</_id>
+                <province>浙江省</province>
+                <city>杭州市</city>
+                <district>余杭区</district>
+                <street>仓前街道</street>
+                <detail>良睦路1288号5号楼小邮局</detail>
+                <name>吴瑞</name>
+                <phone>19122223333</phone>
+                <uid>git/wurui</uid>
+            </i>
+            <i>
+                <_id>58d3782fc54d47560af2cd7b</_id>
+                <province>湖北省</province>
+                <city>武汉市</city>
+                <district>东西湖区</district>
+                <street>金银湖街道</street>
+                <detail>16022</detail>
+                <name>吴小帅</name>
+                <phone>13211123333</phone>
+                <uid>git/wurui</uid>
+            </i>
+            <i>
+                <_id>5a603c9999d74a062b36210f</_id>
+                <province>北京市</province>
+                <city></city>
+                <district>东城区</district>
+                <street></street>
+                <detail>10-3-31</detail>
+                <name>wurui</name>
+                <phone>18199992222</phone>
+                <uid>git/wurui</uid>
+            </i>
+        </user-address>
+        <user-select>
+            <i>
+                <uid>git/wurui</uid>
+                <selected>58d3782fc54d47560af2cd7a</selected>
+                <type>user-address</type>
+            </i>
+        </user-select>
+
     </data>
 </root>
