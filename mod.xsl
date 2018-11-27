@@ -7,7 +7,7 @@
 
     		<form>
     			<input type="hidden" name="selected_id" value="{$selected_addr_id}"/>
-    			<input type="hidden" value="{_id}" name="_id"/>
+    			<input type="hidden" value="{$address/_id}" name="_id"/>
         		<section>
 		            <ul>
 		            	<li>

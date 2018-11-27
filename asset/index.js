@@ -9,6 +9,7 @@ define(['oxjs','./distpicker'],function(OXJS,DistPicker){
     	var onEditComplete=function(){
     		history.back();
     	};
+    	//[{"name":"user-address","attr":{"ADAPTERID":"35bfd08ce4b4b41719c2700a4","SELECTOR":"_id"},"body":{"n":1,"nModified":1,"ok":1}}]
     	var f=$('form',$mod).on('submit',function(e){
     		var json=OXJS.formToJSON(this);
     		//console.log(json);
@@ -20,7 +21,7 @@ define(['oxjs','./distpicker'],function(OXJS,DistPicker){
 
     		var callback=function(r){
     			if(is_default){
-    				var new_id=r && r[0] && r[0].data;
+    				var new_id=json._id || r && r[0] && r[0].data && && r[0].data._id;
     				if(selected_id){
 		    			$mod.OXPut({
 		    				'user-address':{
@@ -40,6 +41,8 @@ define(['oxjs','./distpicker'],function(OXJS,DistPicker){
 		    		}
 
 
+    			}else{
+    				onEditComplete()
     			}
     			
 
