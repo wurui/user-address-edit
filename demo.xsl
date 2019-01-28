@@ -30,7 +30,7 @@
               jquery: 'https://l.oxm1.cc/3rd/jquery',
               zepto: 'https://l.oxm1.cc/3rd/zepto.min',
             },
-            packages:[{name:"oxm",location:'https://a.oxm1.cc/oxm'},{name:'oxjs',location:'http://a.oxm1.cc/js/oxjs',main:'index-dev.js'}]
+            packages:[{name:"oxm",location:'https://a.oxm1.cc/oxm'},{name:'oxjs',location:'https://a.oxm1.cc/js/oxjs',main:'index-dev.js'}]
           });
           require(['zepto','oxjs','../asset/index'],function(undefine,oxjs,Mod){
           Mod && Mod.init && Mod.init($('.J_OXMod'));
